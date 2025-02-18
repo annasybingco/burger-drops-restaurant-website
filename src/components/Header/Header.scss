@@ -15,7 +15,7 @@
 .cart__icon {
   position: absolute;
   right: 90%;
-  bottom: 10%;
+  bottom: 10%; ///add z index -give padding/spacing between the title
 }
 
 .cart__value {

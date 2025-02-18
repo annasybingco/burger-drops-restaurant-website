@@ -3,7 +3,12 @@ import "./QuantitySelector.scss";
 import add from "../../assets/icons/add.svg";
 import subtract from "../../assets/icons/subtract.svg";
 
-function QuantitySelector({ count, setCount, minValue = 1, maxValue = 100 }) {
+function QuantitySelector({
+  count = 1,
+  setCount,
+  minValue = 1,
+  maxValue = 100,
+}) {
   // Increment function
   const handleIncrementCounter = () => {
     if (count < maxValue) {

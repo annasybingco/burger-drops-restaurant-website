@@ -7,7 +7,7 @@ import "./Cart.scss";
 import Order from "../../components/Order/Order";
 
 const CartPage = () => {
-  const [cartQuantity, setCartQuantity] = useState(1); // Initial quantity
+  const [cartQuantity, setCartQuantity] = useState(1);
 
   return (
     <div>
@@ -15,7 +15,7 @@ const CartPage = () => {
         <img src={back} alt="back-icon" />
         <img src={logo} alt="logo" />
         <div className="cart-qty">
-          <img src={cart} alt="cart-icon" className="cart-icon" />{" "}
+          <img src={cart} alt="cart-icon" className="cart-icon" />
           <span className="qty-bg">{cartQuantity}</span>
         </div>
       </div>

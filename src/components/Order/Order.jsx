@@ -1,15 +1,9 @@
-import { useLocation } from "react-router-dom";
+import React from "react";
 
-function Order() {
-  const location = useLocation();
-  const photo = location.state?.photo; // Retrieve passed state
+import { item } from "../MenuId/MenuId";
 
-  return (
-    <div>
-      <h1>Order Page</h1>
-      {photo && <img src={photo} alt="Ordered item" />}
-    </div>
-  );
+function Order({ item }) {
+  return <div></div>;
 }
 
 export default Order;
