@@ -1,8 +1,8 @@
 import { Link, useLocation } from "react-router-dom";
-import RewardsLogo from "../SVG/RewardsLogo";
-import ProfileLogo from "../SVG/ProfileLogo";
-import FaqLogo from "../SVG/FaqLogo";
-import HomeLogo from "../SVG/HomeLogo";
+import RewardsIcon from "../SVG/RewardsIcon";
+import ProfileIcon from "../SVG/ProfileIcon";
+import FaqIcon from "../SVG/FaqIcon";
+import HomeIcon from "../SVG/HomeLogo";
 import "../Navigation/Navigation.scss";
 
 function Navigation() {
@@ -12,25 +12,25 @@ function Navigation() {
     <section className="navigation">
       <Link to="/">
         <div className={location.pathname === "/" ? "active" : ""}>
-          <HomeLogo />
+          <HomeIcon />
           <p>Menu</p>
         </div>
       </Link>
       <Link to="/rewards">
         <div className={location.pathname === "/rewards" ? "active" : ""}>
-          <RewardsLogo />
+          <RewardsIcon />
           <p>Rewards</p>
         </div>
       </Link>
       <Link to="/profile">
         <div className={location.pathname === "/profile" ? "active" : ""}>
-          <ProfileLogo />
+          <ProfileIcon />
           <p>Profile</p>
         </div>
       </Link>
       <Link to="/faq">
         <div className={location.pathname === "/faq" ? "active" : ""}>
-          <FaqLogo />
+          <FaqIcon />
           <p>FAQ</p>
         </div>
       </Link>
