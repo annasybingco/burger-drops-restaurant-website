@@ -8,10 +8,6 @@ BurgerDrops is a Toronto-based, fast-casual restaurant that delivers quality sma
 
 This app is to benefit a local small business owner. Currently, as they’re utilizing Uber Eats and Doordash, they must pay costly fees to keep their restaurant on the platform. They’re looking to create an app so that the company can retain their revenue, and align a bespoke app to their branding guidelines.
 
-### User Profile
-
-![User Persona](./capstone-proposal/user-persona.jpg)
-
 ### Features
 
 • A user will be able to create their own account
@@ -26,24 +22,4 @@ This app is to benefit a local small business owner. Currently, as they’re uti
 
 React, Node, Express, Javascript, SCCS, Photoshop
 
-### APIs
 
-I will be creating my API for this project.
-
-### Sitemap
-
-![Sitemap](./capstone-proposal/sitemap.jpg)
-
-### Mockups
-
-![Menu](./capstone-proposal/menu.png)
-
-![Menu Details](./capstone-proposal/menu-details.jpg)
-
-![Order Page](./capstone-proposal/order-page.jpg)
-
-![Rewards Page](./capstone-proposal/rewards.jpg)
-
-![Profile Page](./capstone-proposal/profile.jpg)
-
-![FAQ Page](./capstone-proposal/faq.jpg)
