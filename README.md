@@ -16,8 +16,6 @@ This app is to benefit a local small business owner. Currently, as they’re uti
 • Be able to view the pricing page of their order
 • Be able to toggle through light and dark mode
 
-## Implementation
-
 ### Tech Stack
 
 React, Node, Express, Javascript, SCCS, Photoshop
