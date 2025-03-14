@@ -10,11 +10,7 @@ This app is to benefit a local small business owner. Currently, as they’re uti
 
 ### Features
 
-• A user will be able to create their own account
-• Make personalized customizations to their orders
-• Be able to edit, update, and delete their order items
-• Be able to view the pricing page of their order
-• Be able to toggle through light and dark mode
+A user will be able to create their own account. Make personalized customizations to their orders. Be able to edit, update, and delete their order items. Be able to view the pricing page of their order. Be able to toggle through light and dark mode
 
 ### Tech Stack
 
